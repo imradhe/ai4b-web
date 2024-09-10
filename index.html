@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI4Bharat Hero Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="bg-ai4b-secondary">
+    <!-- Navbar -->
+    <nav class="d-flex justify-content-center fixed-top">
+        <div
+            class="container navbar navbar-expand-lg navbar-light navbar-blur bg-ai4b-1 shadow-lg mx-md-5 mx-2 my-3 px-3 ps-2">
+            <a class="navbar-brand badge bg-ai4b-secondary rounded-pill text-ai4b-primary fw-bold fs-5 d-flex align-items-center gap-2"
+                href=" ">
+                <img src="icon.webp" alt="AI4Bharat Logo" />
+                <span>AI4Bharat</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="areasDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Areas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="areasDropdown">
+                            <li>
+                                <a class="dropdown-item" href="areas/llms">Large Language Models (LLMs)</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="areas/translation">Translation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="areas/transliteration">Transliteration</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="areas/asr">Automatic Speech Recognition (ASR)</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="areas/tts">Text-to-Speech (TTS)</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="areas/ocr">Optical Character Recognition (OCR)</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="areas/data-collection">Data Collection</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="datasets">Datasets</a></li>
+                            <li><a class="dropdown-item" href="models">Models</a></li>
+                            <li>
+                                <a class="dropdown-item" href="applications">Applications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="labDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Lab
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="labDropdown">
+                            <li><a class="dropdown-item" href="about">About</a></li>
+                            <li><a class="dropdown-item" href="people">People</a></li>
+                            <li>
+                                <a class="dropdown-item" href="publications">Publications</a>
+                            </li>
+                            <li><a class="dropdown-item" href="careers">Careers</a></li>
+                            <li>
+                                <a class="dropdown-item" href="stories">AI4Bharat in Action (Stories)</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news">News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="py-5">
+        <div class="container mt-5 pt-5">
+            <header class="d-flex justify-content-evenly mb-4">
+                <img src="logo.webp" class="img-fluid mx-3" alt="AI4Bharat Logo" />
+                <img src="iitm.svg" class="img-fluid mx-3" alt="IITM Logo" />
+            </header>
+
+            <main class="justify-content-center align-items-center text-center">
+                <span class="hero-badge text-ai4b-primary badge bg-ai4b-light-2 rounded-pill fw-bold mb-5">
+                    Artificial-Intelligence <span class="text-ai4b">for Bhārat</span>
+                </span>
+                <h1 class="hero-title text-ai4b-primary fw-bold">AI4Bhārat</h1>
+                <h2 class="hero-subtitle fw-bold mb-5">
+                    <span class="text-ai4b-primary">open-source</span>
+                    <span class="text-ai4b-secondary badge bg-ai4b rounded-pill px-3">by IITM</span>
+                </h2>
+                <a href="models" class="btn btn-ai4b my-5">Try Our Latest Models →</a>
+            </main>
+
+            <div class="owl-carousel owl-theme mt-3 mb-5 pb-5" id="language-carousel">
+                <!-- Carousel items will be injected here dynamically -->
+            </div>
+        </div>
+
+        <!-- Hero Section End -->
+
+        <div id="mission" class="py-5 my-5">
+            <div class="container text-center mt-3">
+                <h2 class="fw-bold mission-title text-ai4b-primary">
+                    <span class="text-ai4b">Building</span>
+                    <span class="text-ai4b-grey">AI</span>
+                    <span class="text-nowrap">for India</span>
+                </h2>
+
+                <!-- Mission Statement -->
+                <p class="lead mt-3 mb-5 pb-3 mx-3">
+                    Building state-of-the-art foundational AI & language technologies
+                    for Indian languages with open-source contributions in datasets,
+                    models, applications and by enabling an innovation ecosystem.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-ai4b pb-5" id="news">
+        <div class="container bg-ai4b-secondary container-rounded-bottom position-relative pt-3 mb-5">
+            <h2 class="display-3 text-ai4b-primary fw-bold text-center">
+                Latest <span class="text-nowrap">News & Updates</span>
+            </h2>
+            <div class="owl-carousel owl-theme mt-5 px-4">
+                <div class="card mb-3 bg-transparent border-0">
+                    <img src="indicvoices.png" class="card-img-top" alt="IndicVoices Image" />
+
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-middle mb-2">
+                            <div>
+                                <span class="badge bg-ai4b rounded-pill float-start">Announcement</span>
+                            </div>
+                            <div>
+                                <span class="text-body-secondary float-end">30th Jun 2024</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-ai4b-primary fw-bold">IndicVoices</h5>
+                        <p class="card-text flex-grow-1">
+                            The IndicVoices pre-print has been accepted, marking a major
+                            achievement in linguistic [...]
+                        </p>
+                        <a href="#" class="text-ai4b-primary fw-bold text-decoration-none stretched-link">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card mb-3 bg-transparent border-0">
+                    <img src="indicvoices.png" class="card-img-top" alt="IndicVoices Image" />
+
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-middle mb-2">
+                            <div>
+                                <span class="badge bg-ai4b rounded-pill float-start">Announcement</span>
+                            </div>
+                            <div>
+                                <span class="text-body-secondary float-end">30th Jun 2024</span>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-ai4b-primary fw-bold">IndicTrans2</h5>
+                        <p class="card-text flex-grow-1">
+                            The IndicVoices pre-print has been accepted, marking a major
+                            achievement in linguistic [...]
+                        </p>
+                        <a href="#" class="text-ai4b-primary fw-bold text-decoration-none stretched-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-nav">
+                <button id="prevButton" class="border-0">
+                    <i class="bi bi-chevron-left display-1"></i>
+                </button>
+                <button id="nextButton" class="border-0">
+                    <i class="bi bi-chevron-right display-1"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-ai4b-secondary" style="height: 600px"></section>
+
+    <section id="founders" class="bg-ai4b-secondary">
+        <div class="container">
+            <h2 class="display-3 text-ai4b-primary fw-bold text-center mb-5">
+                Meet Our Founders
+            </h2>
+            <div class="row justify-content-center align-items-center pt-3">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card my-5 bg-white border-0 text-center">
+                        <div class="text-center">
+                            <img src="anoop.webp" class="card-img-top rounded-circle" alt="Anoop Kunchkuttan Image" />
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-ai4b-primary fw-bold">
+                                Anoop Kunchukuttan
+                            </h5>
+                            <p class="card-text flex-grow-1">
+                                <strong>Co-Founder</strong><br />
+                                Researcher at Microsoft and ​Adjunct Faculty at IIT Madras
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card my-5 bg-white border-0 text-center">
+                        <div class="text-center">
+                            <img src="mitesh.webp" class="card-img-top rounded-circle" alt="Mitesh Image" />
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-ai4b-primary fw-bold">
+                                Mitesh M. Khapra
+                            </h5>
+                            <p class="card-text flex-grow-1">
+                                <strong>Co-Founder</strong><br />
+                                Associate Professor at CSE ​Department, IIT Madras
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card my-5 bg-white border-0 text-center">
+                        <div class="text-center">
+                            <img src="pratyush.png" class="card-img-top rounded-circle" alt="Pratyush Image" />
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-ai4b-primary fw-bold">
+                                Pratyush Kumar
+                            </h5>
+                            <p class="card-text flex-grow-1">
+                                <strong>Co-Founder</strong><br />
+                                Researcher at Microsoft and ​Adjunct Faculty at IIT Madras
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card my-5 bg-white border-0 text-center">
+                        <div class="text-center">
+                            <img src="vivek.webp" class="card-img-top rounded-circle" alt="Vivek Raghavan Image" />
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-ai4b-primary fw-bold">
+                                Vivek Raghavan
+                            </h5>
+                            <p class="card-text flex-grow-1">
+                                <strong>Chief Advisor</strong><br />
+                                Chief AI Evangelist, EkStep and ​Mentor, AI4Bharat
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-ai4b-secondary pt-3" id="areas">
+        <div class="container bg-ai4b container-rounded-top p-3 pb-5">
+            <h2 class="display-3 text-ai4b-secondary fw-bold text-center mb-5">
+                Research Areas
+            </h2>
+
+            <div class="row justify-content-center align-items-center">
+                <!-- Large Language Models (LLMs) Card -->
+                <div class="card col-lg-4 border-0 container-rounded bg-ai4b-secondary shadow-lg m-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="card-icon text-center mb-3">
+                            <img src="llms.png" alt="LLMs" height="80px" />
+                        </div>
+                        <h5 class="card-title fw-bold text-ai4b-primary">
+                            Large Language Models (LLMs)
+                        </h5>
+                        <p class="card-text flex-grow-1">
+                            We pioneered multilingual LLMs like IndicBERT, IndicBART, and
+                            Airavata for Indian languages, trained on extensive diverse
+                            datasets like IndicCorpora and Sangraha.
+                        </p>
+                        <a href="areas/llms" class="text-ai4b-primary text-decoration-none fw-bold stretched-link">Know
+                            More</a>
+                    </div>
+                </div>
+
+                <!-- Translation Card -->
+                <div class="card col-lg-4 border-0 container-rounded bg-ai4b-secondary shadow-lg m-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="card-icon text-center mb-3">
+                            <img src="translation.png" alt="Translation" height="80px" />
+                        </div>
+                        <h5 class="card-title fw-bold text-ai4b-primary">Translation</h5>
+                        <p class="card-text flex-grow-1">
+                            Our machine translation models like IndicTransv2 cover 22 Indian
+                            languages, using web data and human translations to compete with
+                            commercial models on various benchmarks.
+                        </p>
+                        <a href="areas/translation"
+                            class="text-ai4b-primary text-decoration-none fw-bold stretched-link">Know More</a>
+                    </div>
+                </div>
+
+                <!-- Transliteration Card -->
+                <div class="card col-lg-4 border-0 container-rounded bg-ai4b-secondary shadow-lg m-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="card-icon text-center mb-3">
+                            <img src="transliteration.png" alt="Transliteration" height="80px" />
+                        </div>
+                        <h5 class="card-title fw-bold text-ai4b-primary">
+                            Transliteration
+                        </h5>
+                        <p class="card-text flex-grow-1">
+                            AI4Bharat's transliteration models, like IndicXlit, are designed
+                            to convert text between Indian languages and English using
+                            datasets like Aksharantar.
+                        </p>
+                        <a href="areas/transliteration"
+                            class="text-ai4b-primary text-decoration-none fw-bold stretched-link">Know More</a>
+                    </div>
+                </div>
+
+                <!-- Automatic Speech Recognition (ASR) Card -->
+                <div class="card col-lg-4 border-0 container-rounded bg-ai4b-secondary shadow-lg m-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="card-icon text-center mb-3">
+                            <img src="asr.png" alt="ASR" height="80px" />
+                        </div>
+                        <h5 class="card-title fw-bold text-ai4b-primary">
+                            Automatic Speech Recognition (ASR)
+                        </h5>
+                        <p class="card-text flex-grow-1">
+                            Our ASR models, including IndicWav2Vec and IndicWhisper, are
+                            trained on rich datasets like Kathbath, Shrutilipi and
+                            IndicVoices, covering multiple Indian languages.
+                        </p>
+                        <a href="areas/asr" class="text-ai4b-primary text-decoration-none fw-bold stretched-link">Know
+                            More</a>
+                    </div>
+                </div>
+
+                <!-- Text-to-Speech (TTS) Card -->
+                <div class="card col-lg-4 border-0 container-rounded bg-ai4b-secondary shadow-lg m-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="card-icon text-center mb-3">
+                            <img src="tts.png" alt="TTS" height="80px" />
+                        </div>
+                        <h5 class="card-title fw-bold text-ai4b-primary">
+                            Text-to-Speech (TTS)
+                        </h5>
+                        <p class="card-text flex-grow-1">
+                            Our focus is on developing models that generate natural-sounding
+                            synthetic voices for Indian languages using web-crawled data and
+                            curated datasets like Rasa.
+                        </p>
+                        <a href="areas/tts" class="text-ai4b-primary text-decoration-none fw-bold stretched-link">Know
+                            More</a>
+                    </div>
+                </div>
+
+                <!-- Optical Character Recognition (OCR) Card -->
+                <div class="card col-lg-4 border-0 container-rounded bg-ai4b-secondary shadow-lg m-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="card-icon text-center mb-3">
+                            <img src="ocr.png" alt="OCR" height="80px" />
+                        </div>
+                        <h5 class="card-title fw-bold text-ai4b-primary">
+                            Optical Character Recognition (OCR)
+                        </h5>
+                        <p class="card-text flex-grow-1">
+                            We are in the early stages of developing models and datasets to
+                            advance Document Layout Parsing and OCR technologies for various
+                            Indian scripts.
+                        </p>
+                        <a href="areas/ocr"
+                            class="text-ai4b-primary text-decoration-none fw-bold stretched-link disabled-link">Coming
+                            Soon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nilekani" class="bg-ai4b-secondary">
+        <div class="container bg-ai4b">
+            <h2 class="display-3 text-ai4b-secondary fw-bold text-center mb-5 pt-5">
+                Nilekani Center <span class="text-nowrap">@ AI4Bharat</span>
+            </h2>
+            <div class="box row align-items-center bg-ai4b-secondary mx-auto">
+                <div class="col-md-4 m-0 p-0">
+                    <img src="nilekani.webp" alt="Nandan Nilekani" class="img-fluid nilekani-image" />
+                </div>
+                <div class="col-md-8 p-3">
+                    <h2 class="display-6 text-ai4b-primary fw-bold">Nandan Nilekani</h2>
+                    <p class="fs-5 pe-md-5 me-md-2">
+                        As the primary sponsor, Nandan Nilekani has generously contributed
+                        to the formation of the "Nilekani Center at AI4Bharat" with a
+                        focus on open-source language tech as a public good.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors" class="bg-ai4b-primary pb-5">
+        <div class="container bg-ai4b container-rounded-bottom">
+            <h2 class="display-3 text-ai4b-secondary fw-bold text-center mb-5 pt-5">
+                Our Sponsors
+            </h2>
+            <div class="owl-carousel owl-theme d-flex justify-content-center align-items-center pb-5 px-4"
+                id="sponsors-carousel">
+                <div class="item">
+                    <img class="img-fluid" src="meity.svg" alt="Ministry of Electronics and IT" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="cdac.png" alt="CDAC" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="nilekanis.png" alt="Nilekani Philanthropies" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="ekstep.png" alt="EkStep" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="microsoft.png" alt="Microsoft" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="google.png" alt="Google" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="yotta.png" alt="Yotta" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sitemap" class="bg-ai4b-primary">
+        <div class="container">
+            <div class="py-5">
+                <div class="row">
+                    <div class="col-12 col-md-3 text-start">
+                        <div class="d-flex flex-row justify-content-center justify-content-md-start align-items-center">
+                            <span
+                                class="brand-logo badge bg-ai4b-secondary rounded-pill text-ai4b-primary fw-bold fs-5 d-flex align-items-center gap-2 mb-3">
+                                <img src="icon.webp" alt="AI4Bharat Logo" />
+                                <span>AI4Bharat</span>
+                            </span>
+                        </div>
+                        <p class="text-light fw-medium ms-1">
+                            A research lab at IIT Madras which works on building open-source
+                            datasets, tools, state-of-the-art models and applications for
+                            Indian languages.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md mb-5">
+                        <h3 class="text-ai4b-secondary fw-bold">Areas</h3>
+                        <ul class="nav flex-column">
+
+                            <li>
+                                <a class="text-light" href="areas/llms">Large Language Models (LLMs)</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="areas/translation">Translation</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="areas/transliteration">Transliteration</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="areas/asr">Automatic Speech Recognition (ASR)</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="areas/tts">Text-to-Speech (TTS)</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="areas/ocr">Optical Character Recognition (OCR)</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="areas/data-collection">Data Collection</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md mb-5">
+                        <h3 class="text-ai4b-secondary fw-bold">Resources</h3>
+                        <ul class="nav flex-column">
+                            <li><a class="text-light" href="datasets">Datasets</a></li>
+                            <li><a class="text-light" href="models">Models</a></li>
+                            <li>
+                                <a class="text-light" href="applications">Applications</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md mb-5">
+                        <h3 class="text-ai4b-secondary fw-bold">Our Lab</h3>
+                        <ul class="nav flex-column">
+                            <li><a class="text-light" href="about">About</a></li>
+                            <li><a class="text-light" href="people">People</a></li>
+                            <li>
+                                <a class="text-light" href="publications">Publications</a>
+                            </li>
+                            <li><a class="text-light" href="careers">Careers</a></li>
+                            <li>
+                                <a class="text-light" href="stories">AI4Bharat in Action</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-12 col-md">
+                        <h3 class="text-ai4b-secondary fw-bold">Contact</h3>
+                        <ul class="nav flex-column text-light">
+                            <li>Nilekani Center at AI4Bharat,</li>
+                            <li>Room 434, 3rd Floor, Subramonian Shankar Block,</li>
+                            <li>Department of Computer Science & Engineering,</li>
+                            <li>IIT Madras, Chennai, Tamil Nadu - 600036</li>
+                        </ul>
+
+                        <div class="d-flex flex-row justify-content-center align-items-center gap-3 mt-5">
+                            <a class="text-ai4b-secondary fs-4" href="mailto:enquiry@ai4bharat.org"><i
+                                    class="bi bi-envelope"></i></a>
+                            <a class="text-ai4b-secondary fs-4" href="https://twitter.com/ai4bharat"><i
+                                    class="bi bi-twitter"></i></a>
+                            <a class="text-ai4b-secondary fs-4" href="https://youtube.com/@ai4bharat"><i
+                                    class="bi bi-youtube"></i></a>
+                            <a class="text-ai4b-secondary fs-4" href="https://linkedin.com/in/ai4bharat"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a class="text-ai4b-secondary fs-4" href="https://github.com/ai4bharat"><i
+                                    class="bi bi-github"></i></a>
+                            <a class="text-ai4b-secondary fs-4" href="https://discord.gg/cnP3h4XGPG"><i
+                                    class="bi bi-discord"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <footer id="footer" class="bg-ai4b-secondary text-center py-2 fw-bold">
+        Made with 🧡 and open-source by
+        <span class="text-nowrap">AI4Bhārat, IIT Madras</span>
+    </footer>
+
+    <script>
+        document.querySelectorAll(".dropdown").forEach(function (dropdown) {
+            dropdown.addEventListener("mouseenter", function () {
+                const dropdownMenu = this.querySelector(".dropdown-menu");
+                if (dropdownMenu) {
+                    dropdownMenu.style.display = "block";
+                    dropdownMenu.style.opacity = 0;
+                    setTimeout(function () {
+                        dropdownMenu.style.transition = "opacity 200ms";
+                        dropdownMenu.style.opacity = 1;
+                    }, 200);
+                }
+            });
+
+            dropdown.addEventListener("mouseleave", function () {
+                const dropdownMenu = this.querySelector(".dropdown-menu");
+                if (dropdownMenu) {
+                    dropdownMenu.style.transition = "opacity 200ms";
+                    dropdownMenu.style.opacity = 0;
+                    setTimeout(function () {
+                        dropdownMenu.style.display = "none";
+                    }, 200);
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $("#sponsors-carousel").owlCarousel({
+                loop: true,
+                margin: 40,
+                autoplay: true,
+                autoplayTimeout: 1400,
+                autoplayHoverPause: true, // Pauses the carousel when hovered
+                responsive: {
+                    0: {
+                        items: 2, // Show 2 items on mobile
+                    },
+                    768: {
+                        items: 4, // Show 4 items on tablet
+                    },
+                    1200: {
+                        items: 6, // Show 6 items on desktop
+                    },
+                },
+                dots: false, // Disable dots
+                nav: false, // Enable custom navigation
+            });
+        });
+    </script>
+
+    <script>
+        languages = [
+            {
+                language: "Hindi",
+                code: "hi",
+                script: "Devanagari",
+                text: "स्वागत",
+                transliteration: "Swagat",
+                speakers: 528000000,
+            },
+            {
+                language: "Bengali",
+                code: "bn",
+                script: "Bengali",
+                text: "স্বাগতম",
+                transliteration: "Shagotom",
+                speakers: 265000000,
+            },
+            {
+                language: "Marathi",
+                code: "mr",
+                script: "Devanagari",
+                text: "स्वागत",
+                transliteration: "Swagat",
+                speakers: 83000000,
+            },
+            {
+                language: "Telugu",
+                code: "te",
+                script: "Telugu",
+                text: "స్వాగతం",
+                transliteration: "Swagatam",
+                speakers: 83000000,
+            },
+            {
+                language: "Tamil",
+                code: "ta",
+                script: "Tamil",
+                text: "வரவேற்கிறேன்",
+                transliteration: "Varaverkiren",
+                speakers: 75000000,
+            },
+            {
+                language: "Gujarati",
+                code: "gu",
+                script: "Gujarati",
+                text: "સ્વાગત",
+                transliteration: "Swagat",
+                speakers: 55000000,
+            },
+            {
+                language: "Urdu",
+                code: "ur",
+                script: "Perso-Arabic",
+                text: "خوش آمدید",
+                transliteration: "Khush Aamadeed",
+                speakers: 50000000,
+            },
+            {
+                language: "Kannada",
+                code: "kn",
+                script: "Kannada",
+                text: "ಸ್ವಾಗತ",
+                transliteration: "Swagata",
+                speakers: 44000000,
+            },
+            {
+                language: "Odia",
+                code: "or",
+                script: "Odia",
+                text: "ସ୍ୱାଗତ",
+                transliteration: "Swagata",
+                speakers: 37000000,
+            },
+            {
+                language: "Malayalam",
+                code: "ml",
+                script: "Malayalam",
+                text: "സ്വാഗതം",
+                transliteration: "Swagatam",
+                speakers: 34000000,
+            },
+            {
+                language: "Punjabi",
+                code: "pa",
+                script: "Gurmukhi",
+                text: "ਸਵਾਗਤ ਹੈ",
+                transliteration: "Swagat Hai",
+                speakers: 33000000,
+            },
+            {
+                language: "Assamese",
+                code: "as",
+                script: "Assamese",
+                text: "স্বাগতম",
+                transliteration: "Swagatam",
+                speakers: 15000000,
+            },
+            {
+                language: "Maithili",
+                code: "mai",
+                script: "Devanagari",
+                text: "स्वागतम्",
+                transliteration: "Swagatam",
+                speakers: 14000000,
+            },
+            {
+                language: "Sanskrit",
+                code: "sa",
+                script: "Devanagari",
+                text: "स्वागतम्",
+                transliteration: "Swagatam",
+                speakers: 24000,
+            },
+            {
+                language: "Santali",
+                code: "sat",
+                script: "Ol Chiki",
+                text: "ᱥᱣᱟᱜᱛᱮ",
+                transliteration: "Swagatare",
+                speakers: 7300000,
+            },
+            {
+                language: "Bodo",
+                code: "brx",
+                script: "Devanagari",
+                text: "स्वागत",
+                transliteration: "Swagat",
+                speakers: 1500000,
+            },
+            {
+                language: "Dogri",
+                code: "doi",
+                script: "Devanagari",
+                text: "स्वागत",
+                transliteration: "Swagat",
+                speakers: 2600000,
+            },
+            {
+                language: "Kashmiri",
+                code: "ks",
+                script: "Perso-Arabic",
+                text: "خوش آمدید",
+                transliteration: "Khush Aamadeed",
+                speakers: 6700000,
+            },
+            {
+                language: "Konkani",
+                code: "kok",
+                script: "Devanagari",
+                text: "स्वागत",
+                transliteration: "Swagat",
+                speakers: 2300000,
+            },
+            {
+                language: "Manipuri (Meitei)",
+                code: "mni",
+                script: "Meitei Mayek",
+                text: "ꯋꯥꯛꯇꯝ",
+                transliteration: "Waktham",
+                speakers: 1800000,
+            },
+            {
+                language: "Nepali",
+                code: "ne",
+                script: "Devanagari",
+                text: "स्वागत",
+                transliteration: "Swagat",
+                speakers: 3000000,
+            },
+            {
+                language: "Sindhi",
+                code: "sd",
+                script: "Perso-Arabic",
+                text: "خوش آمدید",
+                transliteration: "Khush Aamadeed",
+                speakers: 2600000,
+            },
+        ];
+
+        $(document).ready(function () {
+            // Inject JSON data into the Owl Carousel
+            languages.forEach((language) => {
+                $("#language-carousel").append(`
+            <div class="item fw-bold" data-bs-toggle="popover" title="${language.language}" data-bs-content="${language.transliteration} (Welcome)">
+                ${language.text}
+            </div>
+        `);
+            });
+
+            // Initialize Owl Carousel
+            $("#language-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                padding: 5,
+                autoplay: true,
+                autoplayTimeout: 1500,
+                autoplayHoverPause: true, // Pause on hover
+                items: 2, // Number of items to display at once
+                dots: false, // Enable dots
+                nav: false, // Disable prev/next buttons
+                responsive: {
+                    576: {
+                        items: 3,
+                    },
+                    768: {
+                        items: 4,
+                    },
+                    992: {
+                        items: 5,
+                    },
+                    1200: {
+                        items: 6,
+                    },
+                },
+                onTranslated: function () {
+                    // Destroy existing popovers and reinitialize them
+                    $('[data-bs-toggle="popover"]').popover("dispose"); // Dispose of old popovers
+                    $('[data-bs-toggle="popover"]').popover({
+                        trigger: "hover",
+                        placement: "top",
+                    });
+                },
+            });
+
+            $("#news .owl-carousel").owlCarousel({
+                loop: true,
+                margin: 60,
+                padding: 5,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true, // Pause on hover
+                items: 1, // Number of items to display at once
+                dots: false, // Enable dots
+                nav: false, // Disable prev/next buttons
+                center: true,
+                responsive: {
+                    576: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 3,
+                    },
+                    1200: {
+                        items: 3,
+                    },
+                },
+            });
+
+            // Bind custom navigation buttons
+            owl = $("#news .owl-carousel");
+            $("#prevButton").click(function () {
+                owl.trigger("prev.owl.carousel");
+            });
+
+            $("#nextButton").click(function () {
+                owl.trigger("next.owl.carousel");
+            });
+
+            // Initialize Bootstrap Popovers for the first load
+            $('[data-bs-toggle="popover"]').popover({
+                trigger: "hover",
+                placement: "top",
+            });
+        });
+    </script>
+</body>
+
+</html>
