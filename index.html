@@ -2,9 +2,45 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags for AI4Bharat -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI4Bharat Hero Section</title>
+    <meta name="description"
+        content="AI4Bharat is a research lab at IIT Madras working to create open-source datasets, models, and tools for Indian languages, advancing AI technologies in India." />
+    <meta name="keywords"
+        content="AI, Bharat, Indian languages, AI models, AI datasets, open-source AI, NLP, Indian language technology, IIT Madras, Indic models" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="author" content="AI4Bharat, IIT Madras" />
+    <meta name="robots" content="follow, index" />
+    <link rel="canonical" href="https://ai4bharat.org" />
+    <link rel="icon" href="https://ai4bharat.org/favicon.ico" />
+    <meta name="theme-color" content="#2F585A" />
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI4Bhārat - Artificial-Intelligence For Bhārat
+    " />
+    <meta property="og:url" content="https://ai4bharat.org" />
+    <meta property="og:description"
+        content="AI4Bharat, a research lab at IIT Madras, develops state-of-the-art AI models, datasets, and tools for Indian languages. Join us in pioneering AI for Bharat." />
+    <meta property="og:image" itemprop="image" content="https://ai4bharat.org/assets/images/og-image.png" />
+    <meta property="og:image:secure_url" itemprop="image" content="https://ai4bharat.org/assets/images/og-image.png" />
+    <meta property="og:site_name" content="AI4Bharat" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI4Bhārat - Artificial-Intelligence For Bhārat
+    " />
+    <meta name="twitter:description"
+        content="Explore the latest open-source AI models, datasets, and tools for Indian languages from AI4Bharat, a research lab at IIT Madras." />
+    <meta name="twitter:image" content="https://ai4bharat.org/assets/images/og-image.png" />
+    <meta name="twitter:creator" content="@AI4Bharat" />
+
+    <!-- Title -->
+    <title>AI4Bhārat - Artificial-Intelligence For Bhārat
+    </title>
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -127,7 +163,7 @@
                     <span class="text-ai4b-primary">open-source</span>
                     <span class="text-ai4b-secondary badge bg-ai4b rounded-pill px-3">by IITM</span>
                 </h2>
-                <a href="models" class="btn btn-ai4b my-5">Try Our Latest Models →</a>
+                <a href="models" class="btn btn-ai4b-outline my-5">Try Our Latest Models →</a>
             </main>
 
             <div class="owl-carousel owl-theme mt-3 mb-5 pb-5" id="language-carousel">
@@ -214,7 +250,64 @@
         </div>
     </section>
 
-    <section id="about" class="bg-ai4b-secondary" style="height: 600px"></section>
+    <!-- <section id="about" class="bg-ai4b-secondary" style="height: 600px"></section> -->
+
+    <section id="about" class="bg-ai4b-secondary py-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <!-- Image Gallery -->
+                <div class="col-md-6 my-auto">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="data-collection-bengali-1.jpg" class="img-fluid rounded"
+                                alt="Kalimpong, West Bengal" />
+                            <p class="small text-muted text-center">Kalimpong, West Bengal</p>
+                        </div>
+                        <div class="item">
+                            <img src="data-collection-odia.jpg" class="img-fluid rounded" alt="Madurai, Tamil Nadu" />
+                            <p class="small text-muted text-center">Madurai, Tamil Nadu</p>
+                        </div>
+                        <div class="item">
+                            <img src="data-collection-bengali-7.jpg" class="img-fluid rounded" alt="North Goa, Goa" />
+                            <p class="small text-muted text-center">North Goa, Goa</p>
+                        </div>
+                        <div class="item">
+                            <img src="data-collection-assamese-2.jpg" class="img-fluid rounded"
+                                alt="Sambalpur, Odisha" />
+                            <p class="small text-muted text-center">Sambalpur, Odisha</p>
+                        </div>
+                        <div class="item">
+                            <img src="data-collection-assamese-4.jpg" class="img-fluid rounded" alt="Maharashtra" />
+                            <p class="small text-muted text-center">Maharashtra</p>
+                        </div>
+                        <div class="item">
+                            <img src="data-collection-odia.jpg" class="img-fluid rounded" alt="Dhenkanal, Odisha" />
+                            <p class="small text-muted text-center">Dhenkanal, Odisha</p>
+                        </div>
+                        <div class="item">
+                            <img src="data-collection-assamese-1.jpg" class="img-fluid rounded"
+                                alt="Birbhum, West Bengal" />
+                            <p class="small text-muted text-center">Birbhum, West Bengal</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Text Content -->
+                <div class="col-md-6 mx-3 mx-md-0">
+                    <h2 class="display-4 text-ai4b-primary fw-bold">Pioneering <span class="text-ai4b text-nowrap">Data
+                            Collection</span></h2>
+                    <p class="lead text-ai4b-primary pe-md-5">
+                        <strong class="fw-bold">AI4Bharat</strong> focuses on gathering extensive datasets for advancing
+                        Indian technology, with a major initiative involving data collection in 22 languages across 400
+                        districts. The project includes transcribed data, translation pairs, studio-quality recordings,
+                        and document layout parsing. Efforts also extend to developing tools for data collection and
+                        annotation to standardize processes globally.
+                    </p>
+                    <a href="about" class="btn btn-ai4b mt-3">Know more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section id="founders" class="bg-ai4b-secondary">
         <div class="container">
@@ -887,6 +980,21 @@
 
             $("#nextButton").click(function () {
                 owl.trigger("next.owl.carousel");
+            });
+
+
+            $("#about .owl-carousel").owlCarousel({
+                loop: true,
+                margin: 60,
+                padding: 5,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true, // Pause on hover
+                items: 1, // Number of items to display at once
+                dots: true, // Enable dots
+                nav: false, // Disable prev/next buttons
+                center: true,
+                items: 1,
             });
 
             // Initialize Bootstrap Popovers for the first load

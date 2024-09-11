@@ -1,15 +1,15 @@
 /* Globals Styles */
 
 :root {
-    --ai4b-primary: rgba(47, 88, 90, 1);
+    --ai4b-primary: #2f585a;
     --ai4b-primary-1: rgba(47, 88, 90, 0.8);
     --ai4b-primary-2: rgba(47, 88, 90, 0.6);
     --ai4b-primary-3: rgba(47, 88, 90, 0.2);
-    --ai4b-secondary: rgba(255, 250, 223, 1);
+    --ai4b-secondary: #fffadf;
     --ai4b-secondary-1: rgba(255, 250, 223, 0.8);
     --ai4b-secondary-2: rgba(255, 250, 223, 0.6);
     --ai4b-secondary-3: rgba(255, 250, 223, 0.2);
-    --ai4b-tertiary: rgba(227, 123, 25, 1);
+    --ai4b-tertiary: #e37b19;
     --ai4b-tertiary-1: rgba(227, 123, 25, 0.8);
     --ai4b-tertiary-2: rgba(227, 123, 25, 0.6);
     --ai4b-tertiary-3: rgba(227, 123, 25, 0.2);
@@ -184,13 +184,31 @@ header img {
     padding: clamp(8px, 2vw, 10px) clamp(20px, 5vw, 30px);
     border-radius: 30px;
     border: 2px solid var(--ai4b-tertiary);
-    color: var(--ai4b-primary);
-    background-color: var(--ai4b-light-3);
+    color: var(--ai4b-secondary);
+    background-color: var(--ai4b-tertiary);
     text-decoration: none;
     transition: background-color 0.3s ease-in, color 0.3s ease;
 }
 
 .btn-ai4b:hover {
+    background-color: var(--ai4b-tertiary-3);
+    color: var(--ai4b-primary);
+    border: 2px solid var(--ai4b-tertiary);
+}
+
+
+.btn-ai4b-outline {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    padding: clamp(8px, 2vw, 10px) clamp(20px, 5vw, 30px);
+    border-radius: 30px;
+    border: 2px solid var(--ai4b-tertiary);
+    color: var(--ai4b-primary);
+    background-color: var(--ai4b-tertiary-3);
+    text-decoration: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease;
+}
+
+.btn-ai4b-outline:hover {
     background-color: var(--ai4b-tertiary);
     color: var(--ai4b-secondary);
 }
